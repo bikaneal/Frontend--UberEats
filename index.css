@@ -153,19 +153,25 @@ body {
 }
 
 .search__label:before {
-  content: url("../img/search.svg");
+  content: url("./img/search.svg");
   width: 22px;
   height: 22px;
   position: absolute;
   bottom: 15px;
 }
 
-.search__input {
-  background: url(../img/search.svg) no-repeat 0px;
-  width: 96.862%;
+.search_input {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  width: 96.862%;
+  mix-blend-mode: normal;
+  background: url("./img/search.svg") no-repeat 0px;
   background-size: 16px;
   padding: 15px 0px 15px 24px;
+  border-bottom: 1px solid rgb(117, 117, 117, 0.3);
+  border-bottom: 1px solid rgba(117, 117, 117, 0.3);
+  margin-top: 104px;
 }
 
 .search::placeholder {
@@ -200,6 +206,7 @@ body {
   width: 308px;
   padding: 0 0 21px;
   text-decoration: none;
+  flex-wrap: wrap;
 }
 
 .card__restaurant {
