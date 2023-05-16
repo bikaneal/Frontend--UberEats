@@ -153,7 +153,7 @@ body {
 }
 
 .search__label:before {
-  content: url("../img/search.svg");
+  content: url("./img/search.svg");
   width: 22px;
   height: 22px;
   position: absolute;
@@ -161,7 +161,7 @@ body {
 }
 
 .search__input {
-  background: url(../img/search.svg) no-repeat 0px;
+  background: url(./img/search.svg) no-repeat 0px;
   width: 96.862%;
   display: flex;
   background-size: 16px;
