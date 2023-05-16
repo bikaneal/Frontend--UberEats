@@ -154,16 +154,15 @@ body {
 
 .search__label:before {
   content: url("./img/search.svg");
+  content: url("./img/search.svg");
   width: 22px;
   height: 22px;
   position: absolute;
   bottom: 15px;
 }
 
-.search_input {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.search__input {
+  background: url(./img/search.svg) no-repeat 0px;
   width: 96.862%;
   mix-blend-mode: normal;
   background: url("./img/search.svg") no-repeat 0px;
