@@ -358,16 +358,6 @@ body {
   }
 }
 
-@media (max-width: 320px)
-main {
-    width: 308px;
-}
-
-@media (max-width: 768px)
-main {
-    width: 752px;
-}
-
 .row {
   box-sizing: border-box;
   display: flex;
@@ -379,3 +369,23 @@ main {
   padding-right: 100px;
   padding-left: 8px;
 }
+
+@media (max-width: 480px) {
+  .language_select {
+    width: 100%;
+  }
+
+  .language_icon {
+    margin: 0;
+  }
+
+  .footer_social {
+    margin-top: 20px;
+  }
+
+  .text_wrapper {
+    margin-top: 20px;
+  }
+
+  .footer_down_text_privacy {
+    margin-left: 20px;
