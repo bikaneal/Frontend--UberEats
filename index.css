@@ -358,6 +358,16 @@ body {
   }
 }
 
+@media (max-width: 320px)
+main {
+    width: 308px;
+}
+
+@media (max-width: 768px)
+main {
+    width: 752px;
+}
+
 .row {
   box-sizing: border-box;
   display: flex;
